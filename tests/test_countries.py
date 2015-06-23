@@ -7,10 +7,10 @@ from unittest import TestCase
 class CountriesTest(TestCase):
 
     def get_map(self):
-        dim_lower = 100
-        dim_upper = 100
+        dim_lower = 3
+        dim_upper = 3
 
-        n_colors = 1000
+        n_colors = 2
 
         n_rows = randint(dim_lower, dim_upper)
         n_columns = randint(dim_lower, dim_upper)
